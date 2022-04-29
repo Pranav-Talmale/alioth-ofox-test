@@ -72,9 +72,6 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	# maximum permissible splash image size (in kilobytes)
 	#export OF_SPLASH_MAX_SIZE=2048
 
-	# run a process after formatting data to recreate /data/media/0 (only when forced-encryption is being disabled)
-	export OF_RUN_POST_FORMAT_PROCESS=1
-
 	# ensure that /sdcard is bind-unmounted before f2fs data repair or format
 	export OF_UNBIND_SDCARD_F2FS=1
 
