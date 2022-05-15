@@ -26,7 +26,7 @@ cc_library {
     ],
     cflags: [
         "-Wall",
-        "-Werror"
+        "-Werror",
         "-Wno-unused-parameter",
         "-D_GENERIC_KERNEL_HEADERS",
     ],
